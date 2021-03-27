@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.hero {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -16,19 +16,19 @@ body {
   width: 100%;
 }
 
-.aaa .more-inf {
+.hero .hero-href {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa { 
+  .hero { 
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -148,17 +148,17 @@ body {
   width: 226px;
 }
 
-.tasklist-item > .delete:hover {
+.tasklist-item > .btn-delete:hover {
   color: #cf2323;
 }
 
-.delete .btn-bg {
+.btn-delete .btn-bg {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete .btn-bg:hover {
+.btn-delete .btn-bg:hover {
   transform: rotateZ(0);
 }
 
