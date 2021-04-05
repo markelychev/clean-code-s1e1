@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.hero-img {
+.hero__img {
   width: 100%;
 }
 
-.hero-href {
+.hero__href {
   font-family: fantasy, cursive;
 }
 
